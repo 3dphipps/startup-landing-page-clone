@@ -5,7 +5,7 @@ body
 
 div 
 {
-    border: 1px solid Chocolate;
+   /* border: 1px solid Chocolate; */
 }
 
 #headDiv
@@ -50,4 +50,52 @@ ul
 	margin-top:20px;
 	margin-bottom:10px;
 	text-align: center;
+}
+
+#bg
+
+	{
+    background-image: url("http://media.coindesk.com/2015/01/xapo-outer-space.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem; 
+    color:#fff;
+}
+
+#midContainer
+{
+	margin:auto;
+	width: 30%;
+	text-align: center;
+	padding-top: 250px;
+}
+
+#mid h2
+{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#mid h3
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff6f00;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
 }

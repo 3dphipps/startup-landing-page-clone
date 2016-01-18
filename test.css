@@ -1,0 +1,63 @@
+body 
+{
+    background-color: #fff;
+}
+
+div 
+{
+    border: 1px solid Chocolate;
+}
+
+#headDiv
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: helvetica;
+	font-size: 1em;
+	text-align: center;
+	width: 45%;
+	display: inline;
+}
+
+
+li
+{
+	display: inline;
+	padding-right: 20px;
+	color: Silver;
+}
+
+li:hover
+{
+	color:DarkGrey;
+}
+
+#logo
+{
+	height:40px;
+	padding-right: 200px;
+	display:inline;
+}
+
+ul
+{
+	display: inline;
+}
+
+#navContainer
+{
+	margin: auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	text-align: center;
+}
+
+#bg
+
+	{
+    background-image: url(images/karmaBG);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
