@@ -8,17 +8,6 @@ div
    /* border: 1px solid Chocolate; */
 }
 
-#headDiv
-{
-	margin-left: auto;
-	margin-right: auto;
-	font-family: helvetica;
-	font-size: 1em;
-	text-align: center;
-	width: 45%;
-	display: inline;
-}
-
 
 li
 {
@@ -83,6 +72,13 @@ ul
 	text-align: center;
 }
 
+h1
+{
+	margin: auto;
+	margin-top:75px;
+	text-align: center;
+}
+
 .btn {
   -webkit-border-radius: 7;
   -moz-border-radius: 7;
@@ -101,30 +97,46 @@ ul
 }
 
 
-#IMGcontainer
+.iconbox {
+    height: 128px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 35px;
+}
+.iconbox > div {
+    text-align: center;
+    width: 160px;
+    display: inline-block;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.iconbox p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.socialBox
 {
 	margin: auto;
+	margin-bottom: 125px;
+	text-align: center;
+	width:240px;
+}
+
+.socialBox > img
+{
+	display: inline;
+
+}
+
+.socialBox p
+{
 	text-align: center;
 }
 
-#Karma
+hr
 {
-	font-size: 40px;
-	font-family: helvetica;
-	color:silver;
-	font-weight: lighter;
-}
-
-.buttonz
-{
-	display: inline;
-}
-
-.buttonZ > img
-{
-	width: 120px;
-	display: inline;
-	padding-right: 70px;
-	padding-left: 70px;
-	padding-bottom: 45px;
+  opacity: 0.5;
+  margin-bottom: 100px;
 }
